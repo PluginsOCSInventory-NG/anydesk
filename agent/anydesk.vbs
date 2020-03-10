@@ -1,7 +1,4 @@
-Dim myVar
-
 Dim WshShell
-
 Set WshShell = Wscript.CreateObject("WScript.Shell")
 
 appdata = WshShell.ExpandEnvironmentStrings("%APPDATA%")

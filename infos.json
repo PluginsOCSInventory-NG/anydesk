@@ -1,12 +1,12 @@
 {
   "displayName" : "Anydesk",
-  "author" : ["Blaise Drayer"],
-  "contributor" : [],
+  "author" : ["Blaise DRAYER"],
+  "contributor" : ["Gilles DUBOIS", "Damien BELLIARD"],
   "supportedAgent" : ["Windows"],
   "version" : "1.0",
   "licence" : "GPLv2",
   "description" : {
-    "fr" : "Remonte la version et l'id Anydesk",
+    "fr" : "Remonte la version et l'ID Anydesk",
     "en" : "Retrieve version and ID of Anydesk"
   }
 }
