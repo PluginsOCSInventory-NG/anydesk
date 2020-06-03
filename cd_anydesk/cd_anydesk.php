@@ -34,7 +34,8 @@ echo open_form($form_name);
 
 $list_fields = array(
     'ID' => 'ADID',
-    'Version' => 'VERSION'
+    'Version' => 'VERSION',
+    'Alias' => 'ALIAS'
 );
 
 $list_col_cant_del=$list_fields;

@@ -7,11 +7,13 @@ function extension_install_anydesk()
 {
     $commonObject = new ExtensionCommon;
 
-    $commonObject -> sqlQuery("CREATE TABLE IF NOT EXISTS `anydesk` (
+    $commonObject -> sqlQuery("DROP TABLE IF EXISTS `anydesk`");
+    $commonObject -> sqlQuery("CREATE TABLE `anydesk` (
                               `ID` INT(11) NOT NULL AUTO_INCREMENT,
                               `HARDWARE_ID` INT(11) NOT NULL,
                               `ADID` VARCHAR(255) DEFAULT NULL,
                               `VERSION` VARCHAR(255) DEFAULT NULL,
+                              `ALIAS` VARCHAR(255) DEFAULT NULL,
                               PRIMARY KEY  (`ID`,`HARDWARE_ID`)
                               ) ENGINE=INNODB;");
 }
@@ -22,7 +24,7 @@ function extension_install_anydesk()
 function extension_delete_anydesk()
 {
     $commonObject = new ExtensionCommon;
-    $commonObject -> sqlQuery("DROP TABLE `anydesk`");
+    $commonObject -> sqlQuery("DROP TABLE IF EXISTS `anydesk`");
 }
 
 /**

@@ -10,11 +10,13 @@ Set Settings = LoadSettings(SETTINGS_FILE)
 
 ADID = Settings("ad.anynet.id")
 ADVersion = Settings("ad.anynet.cur_version")
+ADAlias = Settings("ad.anynet.alias")
 
 Wscript.Echo _
 	"<ANYDESK>" & VbCrLf &_
 	"<ADID>" & ADID & "</ADID>" & VbCrLf &_
 	"<VERSION>" & ADVersion & "</VERSION>" & VbCrLf &_
+	"<ALIAS>" & ADAlias & "</ALIAS>" & VbCrLf &_
 	"</ANYDESK>"
 
 Public Function LoadSettings(strFile)
