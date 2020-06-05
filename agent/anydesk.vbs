@@ -1,7 +1,7 @@
 Dim WshShell
 Set WshShell = Wscript.CreateObject("WScript.Shell")
 
-appdata = WshShell.ExpandEnvironmentStrings("%APPDATA%")
+appdata = WshShell.ExpandEnvironmentStrings("%PROGRAMDATA%")
 
 SETTINGS_FILE = appdata + "\AnyDesk\system.conf"
 
