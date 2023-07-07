@@ -6,7 +6,7 @@
     </hook>
     <hook type="cdentry">
         <identifier>cd_anydesk</identifier>
-        <translation>25000</translation>
+        <translation>28000</translation>
         <category>other</category>
         <available>anydesk</available>
     </hook>
