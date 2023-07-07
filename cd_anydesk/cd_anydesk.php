@@ -19,7 +19,7 @@ if(AJAX){
     $ajax=false;
 }
 
-print_item_header($l->g(25000));
+print_item_header($l->g(28000));
 
 if (!isset($protectedPost['SHOW'])){
     $protectedPost['SHOW'] = 'NOSHOW';
