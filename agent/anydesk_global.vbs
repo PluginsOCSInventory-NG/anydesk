@@ -32,6 +32,10 @@ ADID = Settings("ad.anynet.id")
 ADVersion = Settings("ad.anynet.cur_version")
 ADAlias = Settings("ad.anynet.alias")
 
+If ADID = "" AND ADVersion = "" Then
+	ADID = "No data available in table"
+End If
+
 Wscript.Echo _
 	"<ANYDESK>" & VbCrLf &_
 	"<ADID>" & ADID & "</ADID>" & VbCrLf &_
