@@ -3,7 +3,7 @@
   "author" : ["Blaise DRAYER"],
   "contributor" : ["Gilles DUBOIS", "Damien BELLIARD"],
   "supportedAgent" : ["Windows"],
-  "version" : "2.3",
+  "version" : "2.4",
   "licence" : "GPLv2",
   "description" : {
     "fr" : "Remonte la version et l'ID Anydesk",
